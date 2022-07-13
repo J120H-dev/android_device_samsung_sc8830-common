@@ -1,16 +1,16 @@
 [
   {
-    "repository": "djeman/android_kernel_samsung_sharkls",
-    "target_path": "kernel/samsung/sharkls",
+    "repository": "J120H-dev/android_kernel_samsung_j1x3g",
+    "target_path": "kernel/samsung/j1x3g",
     "revision": "cm-14.1"
   },
   {
-    "repository": "djeman/android_vendor_samsung_common",
+    "repository": "J120H-dev/android_vendor_samsung_common",
     "target_path": "vendor/samsung/common",
     "revision": "cm-14.1"
   },
   {
-    "repository": "djeman/android_vendor_sprd",
+    "repository": "J120H-dev/android_vendor_sprd",
     "target_path": "vendor/sprd",
     "revision": "cm-14.1"
   },

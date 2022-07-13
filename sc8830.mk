@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/sharkls-common
+LOCAL_PATH := device/samsung/sc8830-common
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 

@@ -1,7 +1,7 @@
 
-TARGET_OTA_ASSERT_DEVICE := j3xnlte,j3xnltexx,j2xlte,j2xltedd,j3xlte
+TARGET_OTA_ASSERT_DEVICE := j3xnlte,j3xnltexx,j2xlte,j2xltedd,j3xlte,j1x3g,j1x3gxx
 
-PLATFORM_PATH := device/samsung/sharkls-common
+PLATFORM_PATH := device/samsung/sc8830-common
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
@@ -28,7 +28,7 @@ TARGET_BOOTLOADER_BOARD_NAME := SC9830I
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
-TARGET_KERNEL_SOURCE := kernel/samsung/sharkls
+TARGET_KERNEL_SOURCE := kernel/samsung/j1x3g
 TARGET_KERNEL_HAVE_EXFAT := true
 TARGET_KERNEL_HAVE_NTFS := true
 NEED_KERNEL_MODULE_ROOT := true
